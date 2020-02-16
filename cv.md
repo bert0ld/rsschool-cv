@@ -1,24 +1,29 @@
-1. First Name, Last Name (real ones)
---
+1. ***First Name, Last Name***
+
 Anton Vanchin
 
-2. Contact Info (add several ways to contact you)
---
-Phone: +79101072000
-VK: vk.com/vanish_xd
-e-mail: vanishing9@yandex.ru
+2. ***Contact Info***
 
-3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
-Some kind of self-presentation. In case of lack of experience  Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-learning new things from everywhere etc.).
---
+* Phone: +79101072000
+
+* VK: vk.com/vanish_xd
+
+* e-mail: vanishing9@yandex.ru
+
+3. Summary
+
 I'm really into self-education, self-improvement. It's my passion. Unfortunately it may be a reason to me not
 
-4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
---
-.......
+4. ***Skills***
+
+*Languages:* 
+* **C** and **C++** learned at the University and practiced there
+* **MySQL** learned at the University with practiced there 
+* **Pascal** learned at the School, had some practice during preparing to exam
+* **C#(Windows Forms, .Net Framework 4.7.2)** learned at the University and practiced there
 
 5. ***Code example***
+
 C#, Windows Forms.
 One of the university's task.
 ```c#
@@ -144,12 +149,10 @@ namespace TextEditor
 }
 ```
 
-6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
-freelance projects - wherever they had the opportunity to demonstrate skills they have.
-Also it would be awesome if you add links to source code)
---
+6. ***Experience***
+
 https://github.com/bert0ld
-(I promise to add the university's projects.)
+>I promise to add the university's projects.
 
 
 7. ***Education:***
