@@ -10,9 +10,13 @@ Anton Vanchin
 
 * e-mail: vanishing9@yandex.ru
 
-3. Summary
+3. ***Summary***
 
-I'm really into self-education, self-improvement. It's my passion. Unfortunately it may be a reason to me not
+I'm really into self-education, self-development directed to increasing the productivity. Following it I fell in love with running. Especially long distances like 10, 20 and more kilometers. And the closer I get to running a marathon, the more I understand the quote:
+
+>Motivation is what gets you started. Habit is what keeps you going.
+
+And i'm building a habit to study everyday and everywhere because even *small pause is a big chance to know something new*.
 
 4. ***Skills***
 
