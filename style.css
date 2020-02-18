@@ -1,0 +1,17 @@
+body {
+	max-width: 1024px;
+
+  text-align: center;
+  font-size: 16px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+pre {
+	text-align: left;
+	font-family: console;
+	font-size: 12px;
+
+	border: 1px solid #000000;
+	background-color: #d3d3d3;
+	border-radius: 20px;
+}

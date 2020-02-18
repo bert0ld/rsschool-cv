@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+		<meta charset="UTF-8">
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>My CV</title>
+  </head>
+	<body>
+		
+		<header><h1>Anton Vanchin</h1></header>
+		<hr>
+		
+		<img src="https://nnov.repetitors.info/pfiles/VanchinAA/69a9a2b17898424b22b8189ea5b492ad-a34-135.jpg" alt="my photo" title="my photo">
+
+		<h2><em>Contact Info</em></h2>
+		<ul>
+			<li>Phone: +79101072000</li>
+			<li>e-mail: vanishing9@yandex.ru</li>
+		</ul>
+			<a href="https://vk.com/vanish_xd"><img src="https://corp.imgsmail.ru/media/files/vklogo.png" width=30 height=30 alt="vk logo" title="vk logo"></a>
+			<a href="https://t.me/bert01d"><img src="https://avatars.mds.yandex.net/get-zen_doc/174930/pub_5d47ed2af8a62300ad88dfe7_5d47ed88d4f07a00af33f85a/scale_1200" width=30 height=30 alt="telegram logo" title="teleram logo"></a>
+		
+			
+		<h2><em>Summary</em></h2>
+			<p>I'm really into self-education, self-development directed to increasing the productivity. Following it I fell in love with running. Especially long distances like 10, 20 and more kilometers. And the closer I get to running a marathon, the more I understand the quote:</p>
+			<p><em>"Motivation is what gets you started. Habit is what keeps you going."</em></p>
+			<p>And i'm building a habit to study everyday and everywhere because even small pause is a big chance to know something new.</p>
+
+		<h2><em>Skills</em></h2>
+			Languages:
+			<ul>
+				<li><strong>C and C++</strong> learned at the University and practiced there</li>
+				<li><strong>MySQL</strong> learned at the University with practiced there</li>
+				<li><strong>Pascal</strong> learned at the School, had some practice during preparing to exam</li>
+				<li><strong>C# (Windows Forms, .Net Framework 4.7.2)</strong> learned at the University and practiced there</li>
+			</ul>
+		
+		<h2><em>Code example</em></h2>
+			C#, Windows Forms. One of the university's task.
+			<pre>
+
+			// Text editor
+			using System;
+			using System.Collections.Generic;
+			using System.ComponentModel;
+			using System.Data;
+			using System.Drawing;
+			using System.Linq;
+			using System.Text;
+			using System.Threading.Tasks;
+			using System.Windows.Forms;
+			using System.IO;
+
+			namespace TextEditor
+			{
+			    public partial class Form1 : Form
+			    {
+			        public Form1()
+			        {
+			            InitializeComponent();
+			        }
+
+			        private void OpenFile_Click(object sender, EventArgs e)
+			        {
+			            openFileDialog.Filter = "RTF files | *.rtf | Text files | *.txt | All files | *.*";
+
+			            if (openFileDialog.ShowDialog() == DialogResult.OK)
+			            {
+			                StreamReader sr = new StreamReader(openFileDialog.FileName);
+			                TextBox.Text = sr.ReadToEnd();
+			            }
+			        }
+
+			        private void SaveFile_Click(object sender, EventArgs e)
+			        {
+			            saveFileDialog.DefaultExt = "*.txt";
+			            saveFileDialog.Filter = "RTF files | *.rtf | Text files | *.txt | All files | *.*";
+
+			            if (saveFileDialog.ShowDialog() == DialogResult.OK && saveFileDialog.FileName.Length > 0)
+			            {
+			                StreamWriter sw = new StreamWriter(saveFileDialog.FileName);
+			                sw.WriteLine(TextBox.Text);
+			                sw.Close();
+			            }
+			        }
+
+			        private void NewFile_Click(object sender, EventArgs e)
+			        {
+			            TextBox.Clear();
+			        }
+
+			        private void boldbutton_Click(object sender, EventArgs e)
+			        {
+			            if (TextBox.SelectionFont != null)
+			            {
+			                Font CurrentFont = TextBox.SelectionFont;
+			                TextBox.SelectionFont = new Font(CurrentFont, CurrentFont.Style ^ FontStyle.Bold);
+			            }
+
+			            TextBox.SelectionLength = 0;
+			        }
+
+			        private void italicbutton_Click(object sender, EventArgs e)
+			        {
+			            if (TextBox.SelectionFont != null)
+			            {
+			                Font CurrentFont = TextBox.SelectionFont;
+			                TextBox.SelectionFont = new Font(CurrentFont, CurrentFont.Style ^ FontStyle.Italic);
+			            }
+
+			            TextBox.SelectionLength = 0;
+			        }
+
+			        private void fontdialogbutton_Click(object sender, EventArgs e)
+			        {
+			            FontDialog FD = new FontDialog();
+			            if (FD.ShowDialog() == DialogResult.OK)
+			            {
+			                TextBox.SelectionFont = FD.Font;
+			            }
+
+			            TextBox.SelectionLength = 0;
+			        }
+
+			        private void colordialogbutton_Click(object sender, EventArgs e)
+			        {
+			            ColorDialog CD = new ColorDialog();
+			            if (CD.ShowDialog() == DialogResult.OK)
+			            {
+			                TextBox.SelectionColor = CD.Color;
+			            }
+
+			            TextBox.SelectionLength = 0;
+			        }
+
+			        private void UndoTextTool_Click(object sender, EventArgs e)
+			        {
+			            TextBox.Undo();
+			        }
+
+			        private void RedoTextTool_Click(object sender, EventArgs e)
+			        {
+			            TextBox.Redo();
+			        }
+
+			        private void CutTextTool_Click(object sender, EventArgs e)
+			        {
+			            TextBox.Cut();
+			        }
+
+			        private void CopyTextTool_Click(object sender, EventArgs e)
+			        {
+			            TextBox.Copy();
+			        }
+
+			        private void PasteTextTool_Click(object sender, EventArgs e)
+			        {
+			            TextBox.Paste();
+			        }
+			    }
+			}
+		</pre>
+
+		<h2><em>Experience</em></h2>
+		Please check my
+		<a href="https://github.com/bert0ld">github profile</a>.		
+		
+		<h2><em>Education</em></h2>
+			<ul>
+				<li>Studying in Nizhny Novgorod State University, Institute of Information Technologies, Mathematics and Mechanic (IITMM).<br> Second-year student.</li>
+				<li>Intel Delta 11 Course "Additional topics to the Software Engineering"</li>
+				<li><a href="https://netology.ru/programs/nauchite-iskusstvennyj-intellekt-pisat-scenarij-seriala?stop=1">Data science marathon from Netology</a></li>
+			</ul>
+
+		<h2><em>English</em></h2>
+			<strong>Intermediate.</strong>
+			Only studying practice in the university.
+	</body>
+</html>
