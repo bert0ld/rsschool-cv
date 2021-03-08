@@ -1,9 +1,14 @@
 body {
-	max-width: 1024px;
-
-  text-align: center;
   font-size: 16px;
   font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.wrapper {
+	display: flex;
+    	flex-direction: column;
+    	width: 1000px;
+    	align-items: center;
+	margin: 0 auto;
 }
 
 pre {
@@ -14,4 +19,5 @@ pre {
 	border: 1px solid #000000;
 	background-color: #d3d3d3;
 	border-radius: 20px;
+	padding: 10px;
 }
