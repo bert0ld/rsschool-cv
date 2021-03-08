@@ -1,9 +1,13 @@
 body {
-	max-width: 1024px;
-
-  text-align: center;
   font-size: 16px;
   font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.wrapper {
+	display: flex;
+    	flex-direction: column;
+    	/* width: 1200px; */
+    	align-items: center;
 }
 
 pre {
